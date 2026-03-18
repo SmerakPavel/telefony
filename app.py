@@ -96,7 +96,7 @@ if dotaz:
                     prompt,
                     generation_config=genai.types.GenerationConfig(
                         candidate_count=1,
-                        temperature=0.3,
+                        temperature=0.5,
                         max_output_tokens=1000
                     )
                 )
