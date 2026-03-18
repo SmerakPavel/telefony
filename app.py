@@ -45,8 +45,11 @@ st.title("Znám telefonní čísla...")
 
 # --- 4. LOGIKA DOTAZŮ ---
 def zpracovat_a_smazat():
-    st.session_state.aktualni_dotaz = st.session_state.vstupni_pole
-    st.session_state.vstupni_pole = ""
+    # Přidáme kontrolu, zda pole už existuje v paměti
+    if "vstupni_pole" in st.session_state:
+        st.session_state.aktualni_dotaz = st.session_state.vstupni_pole
+        st.session_state.vstupni_pole = ""
+
 
 if 'aktualni_dotaz' not in st.session_state:
     st.session_state.aktualni_dotaz = ""
