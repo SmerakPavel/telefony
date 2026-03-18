@@ -85,8 +85,9 @@ if dotaz:
             STYL ODPOVĚDI:
             1. Používám tykání, jsem věcný a srozumitelný.
             2. Pokud odpověď v textu není, slušně to přiznám.
-            3. Na závěr přidám ironickou poznámku.
-            4. Na úplný konec přidám jeden jemný emotikon 😊.
+            3. Pokud je u jména hvězdička *, tak přidám poznámku, že dotyčný je zástupcem svého nadřízeného.
+            4. Na závěr přidám ironickou poznámku.
+            5. Na úplný konec přidám jeden jemný emotikon 😊.
 
             Uživatel se ptá: {dotaz}
             """
