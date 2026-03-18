@@ -5,7 +5,7 @@ import os
 from PIL import Image
 
 # --- 1. KONFIGURACE A ZABEZPEČENÍ ---
-st.set_page_config(page_title="Rádce v předpisech", page_icon="🤖")
+st.set_page_config(page_title="Rádce v telefonních seznamech", page_icon="🤖")
 
 # Skrytí menu Streamlitu
 st.markdown("<style>#MainMenu, footer, header {visibility: hidden;}</style>", unsafe_allow_html=True)
